@@ -171,7 +171,24 @@ body{
 .join-community-section-1st-row p{
     width: 100%;
   }
+  .join-community-section-1st-row p{
+    width: 80% !important;
+  }
+  #accordion{
+      width: 100% !important;
+  }
 
+
+}
+@media(max-width:600px){
+    .join-community-section-1st-row p{
+        width: 100% !important;
+      }
+      .join-community-section-1st-row {
+          padding: 20px !important;
+          padding-top: 20px;
+
+      }
 
 }
 
@@ -364,6 +381,7 @@ body{
      background-color: white;
      padding: 10px 20px;
      border-radius: 5px;
+     margin: 10px;
  }
  .join-community-section-1st-row a:hover{
    text-decoration: none;
@@ -371,6 +389,10 @@ body{
  .join-community-section-1st-row a img{
     width: 20px;
     height: 20px;
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
