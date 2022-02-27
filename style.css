@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    
+   
+}
+body{
+    background-color: #21227A;
+}
+#particles-js{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #21227A;
+
+}
+.hero-section{
+    min-height: 300px;
+    background: #21227A;
+    background-position: center center;
+    height: auto;
+    position: relative;
+}
+.hero-inner-content{
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+}
+.hero-section-1st-row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 400px;
+    /* border: 2px solid red; */
+    margin: 0 !important;
+    padding: 0;
+    color: white;
+    margin: 70px 0 !important;
+}
+.hero-section-1st-row .col-2{
+    padding: 0 50px;
+}
+.hero-section-h1{
+    font-size: 5rem;
+    color: white;
+    text-align: left;
+}
+.hero-section-2nd-row{
+    margin: 0 !important;
+    padding-bottom: 120px;
+  
+}
+.hero-section-2nd-row .content p{
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: left;
+    width: 69%;
+    color: white;
+
+
+}
+.hero-section-2nd-row .about p{
+    
+    text-align: left;
+    width: 60%;
+    color: white;
+
+
+}
+.hero-section-2nd-row ul li{
+    margin: 0 15px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.hero-section-2nd-row .col1 ul{
+    justify-content: start;
+
+}
+.hero-section-2nd-row-ul{
+    
+
+}
+.col{
+    /* border:1px solid red */
+}
+
+.about-text{
+    
+    writing-mode: vertical-lr; 
+
+    transform: rotate(180deg);
+    color: white;
+    height: 200px;
+  
+}
+.about-text::after{
+    content :"";
+    display: inline-block;
+    width: 70px;
+    height: 2px;
+    background: white;
+    transform: rotate(90deg);
+    position: relative;
+    top:40px;
+
+}
+.about{
+    display: flex;
+    align-items: end;
+}
+@media(max-width:950px){
+    .hero-section-2nd-row .col1 ul{
+        justify-content: start;
+    
+    }
+    .hero-section-2nd-row-ul,.hero-section-2nd-row .col1 .content{
+        justify-content: start !important;
+
+    }
+    .hero-section-2nd-row .content p {
+        width: 100%;
+
+    }
+    .hero-section-2nd-row ul {
+        margin-top: 50px;
+        
+      }
+    .hero-section-2nd-row ul li{
+      font-size: 0.8rem;
+      
+    }
+    .hero-section-h1{
+        font-size: 3rem;
+    }
+.hero-section-1st-row{
+    height: auto;
+}
+.service-text {
+    width: auto !important;
+
+}
+.about-section-1st-row .col2{
+    text-align: center;
+    padding: 20px;
+}
+.about-section-2nd-row p{
+    width: 100%;
+    
+}
+.about-section-1st-row img{
+   width: auto;
+   height: auto;
+}
+.about-section-2nd-row p{
+    width: 100% !important;
+}
+.about-section{
+
+  background: #21227A !important;
+
+}
+.about-section-1st-row p {
+    
+    padding: 0 !important;
+}
+.join-community-section-1st-row p{
+    width: 100%;
+  }
+
+
+}
+
+
+
+/* Hero Section CSS End */
+
+
+
+/* Service Section CSS Start*/
+.service-section{
+    margin: 20px 0;
+}
+.service-text{
+    width: 50%;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+.card-main{
+    width: 95%;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.card{
+    
+    padding: 20px;
+    
+   
+
+}
+.service-heading{
+    color: #21227A;
+    font-weight: 700;
+   
+}
+.animated-img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.card-body {
+    
+   
+    border-bottom: 5px solid #21227A !important;
+    box-shadow: 2px -1px 16px -10px rgba(0,0,0,1);
+    -webkit-box-shadow: 2px -1px 16px -10px rgba(0,0,0,1);
+    -moz-box-shadow: 2px -1px 16px -10px rgba(0,0,0,1);
+    margin-bottom: 20px;
+
+}
+.card-body h2{
+    
+   
+    color: #21227A;
+    font-size: 1.7rem;
+   
+}
+
+
+/* Service Section CSS End*/
+
+/* About Section CSS Start*/
+
+.about-section{
+
+    background: url(img/about_Bg.png);
+    background-position: center center;
+    color: white;
+    padding: 50px 0;
+    max-width: 100%;
+    width: 100%;
+
+}
+.about-section-1st-row .col2 h2{
+    font-size: 1.5rem;
+    color: white;
+}
+.about-section-1st-row .col2 h1{
+    font-size: 2.5rem;
+    color: white;
+    color: #FFBF00;
+}
+.about-section-1st-row p{
+    padding: 20px 60px 20px 0;
+}
+.about-section-1st-row .col2 a{
+    text-decoration: none;
+    color: #21227A;
+  
+    background-color: #FFBF00;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.about-section-3rd-row img{
+  margin: 20px 0;
+}
+.about-section-1st-row{
+    margin: 0 !important;
+}
+.about-section-2nd-row{
+    margin: 0 !important;
+
+}
+.about-section-2nd-row h1{
+    color:#FFBF00;
+}
+.about-section-2nd-row h2{
+    font-size: 1.5rem;
+}
+.about-section-2nd-row p{
+    width: 50%;
+    text-align: center;
+    position: relative;
+    top:0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.about-section-1st-row img{
+    width: 80%;
+    text-align: center;
+    position: relative;
+    top:0;
+    left: 50%;
+    transform:translate(-50%)
+
+}
+.about-section-3rd-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.about-section-3rd-row .box{
+    margin: 10px;
+}
+.about-section-3rd-row .box div{
+    
+    background: rgba(4, 4, 122, 0.384);
+    border-radius: 10px;
+    padding: 10px;
+    width: 1000%;
+    padding: 5px 50px;
+
+}
+
+
+/* About Section CSS End*/
+
+
+/* Community Section CSS Start*/
+
+.join-community-section{
+
+    background-image: url(img/Bg2.png);
+    min-height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: #21227A;
+
+
+}
+.join-community-section-1st-row{
+    padding: 50px;
+}
+.join-community-section-1st-row h2{
+   color: #FFBF00;
+   font-weight: 700;
+}
+.join-community-section-1st-row p{
+   width: 50%;
+ }
+ .join-community-section-1st-row a{
+     text-decoration: none;
+     color: #21227A;
+     background-color: white;
+     padding: 10px 20px;
+     border-radius: 5px;
+ }
+ .join-community-section-1st-row a:hover{
+   text-decoration: none;
+}
+ .join-community-section-1st-row a img{
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Community Section CSS End*/
+
+
+/* FAQ Section CSS Start*/
+
+#accordion{
+
+    width: 50%;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 50px;
+}
+.FAQ-heading-text{
+    background: #21227A !important;
+    text-align: left !important;
+    padding: 15px !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+.FAQ-heading-text:hover{
+    text-decoration: none !important;
+}
+.border-remove{
+    border: none !important;
+    padding: 5px !important;
+}
+
+/* FAQ Section CSS End*/
+
+
+
+footer{
+    background: #21227A;
+    color: white;
+}
+
+.footer-col1 a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.4s;
+    margin: 50px 0;
+
+}
+.footer-col1 a:hover{
+   
+    text-decoration: none;
+
+}
+.footer-col1 ul{
+   list-style: none;
+   line-height: 35px;
+   
+    
+}
+.footer-col1 h5{
+    font-weight: 600;
+}
+.footer-1st-row .col-md-3{
+    padding-left: 60px;
+    padding-top: 60px;
+}
