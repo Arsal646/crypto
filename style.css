@@ -10,6 +10,37 @@
 body{
     background-color: #21227A;
 }
+
+ /* Navbar Start */
+
+ .menu{
+     color: white;
+     padding: 50px !important;
+ }
+ .logo{
+     width: 200px;
+     height: 100px;
+ }
+ .navbar-nav li a{
+     color: white !important;
+ }
+ .navbar-nav li {
+     margin: 0 20px;
+}
+.btn-color-change{
+    background-color: #FFBF00;
+    color: white !important;
+}
+.btn-color{
+    color: white !important;
+}
+
+
+
+  /* Navbar End */
+
+
+
 #particles-js{
 
     position: absolute;
@@ -34,12 +65,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 400px;
+    height: 550px;
     /* border: 2px solid red; */
     margin: 0 !important;
     padding: 0;
     color: white;
     margin: 70px 0 !important;
+    align-items: center;
+    margin-bottom: 100px !important;
 }
 .hero-section-1st-row .col-2{
     padding: 0 50px;
@@ -52,6 +85,7 @@ body{
 .hero-section-2nd-row{
     margin: 0 !important;
     padding-bottom: 120px;
+    margin-top: 60px !important;
   
 }
 .hero-section-2nd-row .content p{
@@ -201,6 +235,7 @@ body{
 /* Service Section CSS Start*/
 .service-section{
     margin: 20px 0;
+    background: url(img/Ng.png);
 }
 .service-text{
     width: 50%;
@@ -299,6 +334,7 @@ body{
 
 .about-section-3rd-row img{
   margin: 20px 0;
+  width: 80px;
 }
 .about-section-1st-row{
     margin: 0 !important;
@@ -344,7 +380,7 @@ body{
     border-radius: 10px;
     padding: 10px;
     width: 1000%;
-    padding: 5px 50px;
+    padding: 10px 50px;
 
 }
 
