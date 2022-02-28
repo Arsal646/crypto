@@ -31,6 +31,10 @@ body{
     background-color: #FFBF00;
     color: white !important;
 }
+.btn:focus {
+    outline: 0;
+   box-shadow: none !important;
+}
 
 .btn-color{
     color: white !important;
