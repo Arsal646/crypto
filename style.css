@@ -19,7 +19,7 @@ body{
  }
  .logo{
      width: 200px;
-     height: 100px;
+   
  }
  .navbar-nav li a{
      color: white !important;
@@ -98,7 +98,7 @@ body{
     font-size: 1.4rem;
     font-weight: 600;
     text-align: left;
-    width: 69%;
+    width: 100%;
     color: white;
 
 
@@ -120,6 +120,14 @@ body{
 .hero-section-2nd-row .col1 ul{
     justify-content: start;
 
+}
+.hero-section-2nd-row-col1 {
+    display: flex;
+    justify-content: end;
+   
+}
+.hero-section-2nd-row-col1-content{
+    width: 80%;
 }
 .hero-section-2nd-row-ul{
     
@@ -173,6 +181,9 @@ body{
     .hero-section-2nd-row ul li{
       font-size: 0.8rem;
       
+    }
+    .hero-section-2nd-row-col1-content{
+        width: 100%;
     }
     .hero-section-h1{
         font-size: 3rem;
@@ -409,11 +420,11 @@ body{
 .join-community-section{
 
     background-image: url(img/Bg2.png);
-    min-height: 500px;
-    background-size: contain;
+   
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    background-color: #21227A;
+    
 
 
 }
